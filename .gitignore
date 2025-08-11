@@ -1,0 +1,10 @@
+# Ignorar entornos virtuales
+.venv/
+
+# Ignorar datasets y bases de datos en cualquier carpeta
+*.csv
+*.db
+
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
