@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Fraud Detection with SQL + Python
+# 🕵️‍♂️ Fraud Detection with DataAnalyst + Python
 
 This project implements a **financial fraud detection system** using **Python**, **DataAnalyst**, and **Machine Learning** techniques.  
 It covers the entire process from data exploration to building and evaluating the final predictive model.
