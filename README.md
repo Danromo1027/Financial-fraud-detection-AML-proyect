@@ -12,7 +12,9 @@ It covers the entire process, from data exploration to building and testing the 
 - **Model persistence** for production use.
 - **Visualizations and dashboards** for result analysis.
 
+## 📂 Dataset en KAGGLE
 
+**https://www.kaggle.com/datasets/sriharshaeedala/financial-fraud-detection-dataset**
 
 ## 📂 Project Structure
 
