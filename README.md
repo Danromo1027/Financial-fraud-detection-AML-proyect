@@ -39,15 +39,32 @@ It covers the entire process, from data exploration to building and testing the 
 └── README.md                       # Project documentation
 
 
+```
+## ⚙️ Installation
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/your_username/your_repository.git
+cd your_repository
+
+# 2️⃣ Create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate      # Linux/Mac
+.venv\Scripts\activate         # Windows
+
+# 3️⃣ Install dependencies
+pip install -r requirements.txt
+
+```
+
 
 ## 🚀 How to Test the Model
 
+- 1. Make sure all model files (.pkl) and config_modelo.json are in the project root.
+- 2. Edit the data_test.py file to select the test case you want (fraudulent or legitimate).
+     Change the option variable to the index of the desired example.
+- 3. Run the script:
 
+```bash
+python notebooks/data_test.py
 
-Make sure all model files (.pkl) and config_modelo.json are in the project root.
-
-Edit the data_test.py file to select the test case you want (fraudulent or legitimate).
-
-Change the option variable to the index of the desired example.
-
-Run the script:
+```
